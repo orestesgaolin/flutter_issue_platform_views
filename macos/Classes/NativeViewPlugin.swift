@@ -40,23 +40,3 @@ class FLNativeViewFactory: NSObject, FlutterPlatformViewFactory {
 }
 
 
-@available(macOS 11.00, *)
-struct MyNativeView: View {
-    @State var size: CGFloat = 1.0
-    var body: some View {
-        VStack(alignment: .center) {
-            Text("Hello from SwiftUI")
-                .font(.headline)
-            Text("within Flutter")
-                .font(.body)
-        }
-    }
-}
-
-@available(macOS 11.00, *)
-struct MyNativeView_Previews: PreviewProvider {
-    @available(macOS 11.00.0, *)
-    static var previews: some View {
-        MyNativeView()
-    }
-}
