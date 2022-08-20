@@ -1,0 +1,22 @@
+PODS:
+  - FlutterMacOS (1.0.0)
+  - native_view (0.0.1):
+    - FlutterMacOS
+
+DEPENDENCIES:
+  - FlutterMacOS (from `Flutter/ephemeral`)
+  - native_view (from `Flutter/ephemeral/.symlinks/plugins/native_view/macos`)
+
+EXTERNAL SOURCES:
+  FlutterMacOS:
+    :path: Flutter/ephemeral
+  native_view:
+    :path: Flutter/ephemeral/.symlinks/plugins/native_view/macos
+
+SPEC CHECKSUMS:
+  FlutterMacOS: 85f90bfb3f1703249cf1539e4dfbff31e8584698
+  native_view: bbad34c3c9aa52a53c6e4cf01e4c1dbc2e637fb8
+
+PODFILE CHECKSUM: a884f6dd3f7494f3892ee6c81feea3a3abbf9153
+
+COCOAPODS: 1.11.3
